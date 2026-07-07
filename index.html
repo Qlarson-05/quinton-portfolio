@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quinton Larson | Creative Technology Portfolio</title>
+    <meta
+      name="description"
+      content="Quinton Larson is a digital media designer working across interactive media, 3D animation, game development, motion, and graphic design."
+    />
+    <meta name="theme-color" content="#101113" />
+    <meta property="og:title" content="Quinton Larson | Creative Technology Portfolio" />
+    <meta
+      property="og:description"
+      content="Interactive media, 3D motion, game development, and graphic design work by Quinton Larson."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/portrait-hero.jpeg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Quinton Larson home">
+        <span class="brand-mark">QL</span>
+        <span>Quinton Larson</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#profile">About</a>
+        <a href="assets/quinton-larson-resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-bg-image" src="assets/portrait-hero.jpeg" alt="" aria-hidden="true" />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Creative Technology / Digital Media / Interactive Design</p>
+          <h1 id="hero-title">Quinton Larson</h1>
+          <p class="hero-copy">
+            Digital media designer working across interactive media, 3D animation, games, and visual design.
+            I want to make work that makes people feel something.
+          </p>
+          <div class="hero-actions" aria-label="Portfolio actions">
+            <a class="button primary" href="#work">View Work</a>
+            <a class="button ghost" href="mailto:quintonlarson6@gmail.com?subject=Portfolio%20Inquiry">Email</a>
+            <button class="button ghost" type="button" data-copy-email="quintonlarson6@gmail.com">Copy Email</button>
+            <a class="button ghost" href="assets/quinton-larson-resume.pdf" target="_blank" rel="noreferrer">Resume</a>
+            <a class="button ghost" href="https://www.linkedin.com/in/quintonlarson/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+          <p class="copy-feedback" data-copy-feedback aria-live="polite"></p>
+        </div>
+        <aside class="hero-panel" aria-label="Portfolio status">
+          <span>Recent graduate</span>
+          <strong>Washington State University</strong>
+          <span>Bachelor of Digital Technology & Culture, May 2026</span>
+        </aside>
+      </section>
+
+      <section class="about-section section-band" id="profile" aria-label="About Me">
+        <div class="section-inner about-grid">
+          <div>
+            <p class="eyebrow">About Me</p>
+            <p class="about-lede">
+              I care about stories, emotion, and the profound ways media sticks with us. Art can change how someone
+              sees the world, even if it is only for a moment. That is what pulls me toward games, animation,
+              interactive work, and design.
+            </p>
+          </div>
+          <div class="about-media">
+            <video src="assets/about-interview.mp4" controls playsinline preload="metadata"></video>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-band work-section" id="work" aria-labelledby="work-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="eyebrow">Selected Work</p>
+            <h2 id="work-title">A few things I've been making.</h2>
+            <p>
+              Class projects, experiments, and works in progress. Some polished, some still cooking.
+            </p>
+          </div>
+
+          <div class="work-tabs" role="tablist" aria-label="Work categories">
+            <button class="work-tab is-active" type="button" role="tab" id="tab-touchdesigner" aria-controls="panel-touchdesigner" aria-selected="true" data-work-tab="touchdesigner">TouchDesigner</button>
+            <button class="work-tab" type="button" role="tab" id="tab-three-d" aria-controls="panel-three-d" aria-selected="false" data-work-tab="three-d">3D Work</button>
+            <button class="work-tab" type="button" role="tab" id="tab-design" aria-controls="panel-design" aria-selected="false" data-work-tab="design">Design</button>
+            <button class="work-tab" type="button" role="tab" id="tab-game" aria-controls="panel-game" aria-selected="false" data-work-tab="game">Game</button>
+          </div>
+
+          <div class="category-stack">
+            <section class="work-category is-active" id="panel-touchdesigner" role="tabpanel" aria-labelledby="tab-touchdesigner" data-work-panel="touchdesigner">
+              <div class="category-heading">
+                <p class="eyebrow">TouchDesigner</p>
+                <h3 id="touchdesigner-title">Kinect tracking, projection, and realtime visuals</h3>
+              </div>
+              <div class="project-grid category-grid four-up">
+                <article class="project-card" data-category="interactive">
+                  <div class="project-visual real-media">
+                    <img src="assets/portrait-installation.jpeg" alt="Quinton standing with the Blooms & Tunes interactive eye installation" />
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>TouchDesigner</span>
+                      <span>Exhibition</span>
+                    </div>
+                    <h3>Blooms & Tunes Exhibition</h3>
+                    <p>
+                      An art installation in downtown Pullman created by me and my senior seminar group. I helped
+                      build and lead the projection on the interactive side, then got to watch the work exist outside
+                      the classroom.
+                    </p>
+                    <ul class="project-tags">
+                      <li>Projection</li>
+                      <li>Interactive Media</li>
+                      <li>Team Production</li>
+                    </ul>
+                  </div>
+                </article>
+
+                <article class="project-card" data-category="interactive">
+                  <div class="project-visual real-media">
+                    <video src="assets/touchdesigner-study-01.webm" controls muted playsinline preload="metadata"></video>
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>Kinect</span>
+                      <span>Installation</span>
+                    </div>
+                    <h3>Cheshire Cat Eye Tracking</h3>
+                    <p>
+                      Uses a Kinect camera to track people in the room. The eye looks at you and follows as you move.
+                    </p>
+                    <ul class="project-tags">
+                      <li>Tracking</li>
+                      <li>TouchDesigner</li>
+                      <li>Experience Design</li>
+                    </ul>
+                  </div>
+                </article>
+
+                <article class="project-card" data-category="interactive">
+                  <div class="project-visual real-media">
+                    <video src="assets/touchdesigner-study-03.webm" controls muted playsinline preload="metadata"></video>
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>TouchDesigner</span>
+                      <span>Particles</span>
+                    </div>
+                    <h3>Particle Effects</h3>
+                    <p>
+                      Uses Kinect hand tracking to displace particles when your hand moves in front of the camera.
+                    </p>
+                    <ul class="project-tags">
+                      <li>Particles</li>
+                      <li>Bloom</li>
+                      <li>Realtime Visuals</li>
+                    </ul>
+                  </div>
+                </article>
+
+                <article class="project-card" data-category="interactive">
+                  <div class="project-visual real-media">
+                    <video src="assets/touchdesigner-study-02.webm" controls muted playsinline preload="metadata"></video>
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>TouchDesigner</span>
+                      <span>Hologram</span>
+                    </div>
+                    <h3>Hologram Study</h3>
+                    <p>
+                      Uses Kinect depth data to create a hologram-like effect from the camera feed.
+                    </p>
+                    <ul class="project-tags">
+                      <li>Hologram</li>
+                      <li>Projection</li>
+                      <li>Installation</li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="work-category" id="panel-three-d" role="tabpanel" aria-labelledby="tab-three-d" data-work-panel="three-d" hidden>
+              <div class="category-heading">
+                <p class="eyebrow">3D Work</p>
+                <h3 id="three-d-title">Animation, modeling, and simulation</h3>
+              </div>
+              <div class="project-grid category-grid">
+                <article class="project-card" data-category="3d">
+                  <div class="project-visual real-media">
+                    <video src="assets/animated-scene.mp4" controls muted playsinline preload="metadata"></video>
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>Blender</span>
+                      <span>Animation</span>
+                    </div>
+                    <h3>Final Breath</h3>
+                    <p>
+                      A 3D animation class project and my favorite piece so far: a hand reaching out of dark water
+                      under one hard spotlight.
+                    </p>
+                    <ul class="project-tags">
+                      <li>3D Animation</li>
+                      <li>Lighting</li>
+                      <li>Motion</li>
+                    </ul>
+                  </div>
+                </article>
+
+                <article class="project-card" data-category="3d">
+                  <div class="project-visual real-media">
+                    <video src="assets/blender-donut-short.mp4" controls muted playsinline preload="metadata"></video>
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>Blender</span>
+                      <span>Modeling</span>
+                    </div>
+                    <h3>Blender Donut</h3>
+                    <p>
+                      A classic Blender exercise that helped me practice modeling, lighting, camera movement, and
+                      finishing a small scene.
+                    </p>
+                    <ul class="project-tags">
+                      <li>Modeling</li>
+                      <li>Motion</li>
+                      <li>Lighting</li>
+                    </ul>
+                  </div>
+                </article>
+
+                <article class="project-card" data-category="3d">
+                  <div class="project-visual real-media">
+                    <video src="assets/falling-blocks.mp4" controls muted playsinline preload="metadata"></video>
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>Blender</span>
+                      <span>Simulation</span>
+                    </div>
+                    <h3>Falling Blocks Simulation</h3>
+                    <p>
+                      A small physics test focused on weight, timing, and motion.
+                    </p>
+                    <ul class="project-tags">
+                      <li>Simulation</li>
+                      <li>Physics</li>
+                      <li>Motion Study</li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="work-category" id="panel-design" role="tabpanel" aria-labelledby="tab-design" data-work-panel="design" hidden>
+              <div class="category-heading">
+                <p class="eyebrow">Design</p>
+                <h3 id="design-title">Graphic design and campaign work</h3>
+              </div>
+              <div class="project-grid category-grid two-up">
+                <article class="project-card" data-category="graphic">
+                  <div class="project-visual real-media album-media">
+                    <img src="assets/frank-ocean-poster.jpg" alt="Frank Ocean Blonde album redesign poster" />
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>Graphic Design</span>
+                      <span>Album Redesign</span>
+                    </div>
+                    <h3>Frank Ocean Album Redesign</h3>
+                    <p>
+                      A Blonde album redesign focused on type, layout, mood, and restraint.
+                    </p>
+                    <ul class="project-tags">
+                      <li>Typography</li>
+                      <li>Art Direction</li>
+                      <li>Layout</li>
+                    </ul>
+                  </div>
+                </article>
+
+                <article class="project-card" data-category="graphic">
+                  <div class="project-visual real-media visual-river">
+                    <img src="assets/snake-river-poster.png" alt="Snake River campaign title graphic" />
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>Campaign</span>
+                      <span>2025</span>
+                    </div>
+                    <h3>Snake River Campaign</h3>
+                    <p>
+                      A campaign project about the lower Snake River dams, salmon, and the communities affected by
+                      the river's disruption.
+                    </p>
+                    <ul class="project-tags">
+                      <li>Campaign</li>
+                      <li>Visual Communication</li>
+                      <li>Design System</li>
+                    </ul>
+                    <div class="project-links">
+                      <a href="snake-river.html">View case study</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="work-category" id="panel-game" role="tabpanel" aria-labelledby="tab-game" data-work-panel="game" hidden>
+              <div class="category-heading">
+                <p class="eyebrow">Game Development</p>
+                <h3 id="game-title">Playable prototypes and experiments</h3>
+              </div>
+              <div class="project-grid category-grid one-up">
+                <article class="project-card feature" data-category="game">
+                  <div class="project-visual real-media game-media">
+                    <img src="assets/platform-fighter-screenshot.png" alt="Work-in-progress 3D platform fighter prototype screenshot" />
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>Unity</span>
+                      <span>Work in Progress</span>
+                    </div>
+                    <h3>3D Platform Fighter</h3>
+                    <p>
+                      A work-in-progress fighter prototype focused on movement, attacks, hitboxes, UI, and testing
+                      combat feel.
+                    </p>
+                    <ul class="project-tags">
+                      <li>Unity</li>
+                      <li>Gameplay Systems</li>
+                      <li>Prototype UI</li>
+                    </ul>
+                    <div class="project-links">
+                      <a href="platform-fighter.html">Learn more</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-band skills-section" aria-labelledby="skills-title">
+        <div class="section-inner skills-grid">
+          <div>
+            <p class="eyebrow">Capabilities</p>
+            <h2 id="skills-title">Tools and strengths.</h2>
+          </div>
+          <div class="skill-cloud" aria-label="Skills and tools">
+            <span>TouchDesigner</span>
+            <span>Blender</span>
+            <span>Unity</span>
+            <span>Unreal Engine</span>
+            <span>Figma</span>
+            <span>Adobe Suite</span>
+            <span>Projection Mapping</span>
+            <span>Interactive Media</span>
+            <span>3D Modeling</span>
+            <span>3D Animator</span>
+            <span>Game Designer</span>
+            <span>Motion Design</span>
+            <span>Graphic Design</span>
+            <span>UI/UX</span>
+            <span>Maya</span>
+            <span>Leadership</span>
+            <span>Digital Storytelling</span>
+            <span>Typography</span>
+            <span>Wireframing</span>
+            <span>Visual Communication</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Open to creative technology, design, and interactive media opportunities.</h2>
+          <a class="contact-link" href="mailto:quintonlarson6@gmail.com?subject=Portfolio%20Inquiry">quintonlarson6@gmail.com</a>
+          <a class="contact-link secondary" href="https://www.linkedin.com/in/quintonlarson/" target="_blank" rel="noreferrer">linkedin.com/in/quintonlarson</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
